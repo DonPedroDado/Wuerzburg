@@ -2,7 +2,7 @@ import pandas as pd
 
 df = pd.read_csv("excersise3.csv")
 
-positions_strategies = dict(zip(df['position'], df['strategy']))
+positions_strategies = dict(zip(df['Position'], df['Strategy']))
 
 try:
     strategyinput = input("Write your current position: ").upper()
